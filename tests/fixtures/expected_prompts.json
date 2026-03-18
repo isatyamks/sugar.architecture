@@ -1,0 +1,21 @@
+{
+    "what_so_what": {
+        "what": "You worked on '{title}'. Can you tell me what you did?",
+        "so_what": "That's interesting! Why do you think that matters?",
+        "now_what": "Great thinking! What would you like to try next time?"
+    },
+    "kolb": {
+        "concrete_experience": "You just finished working on '{title}'. What did you actually do during this session?",
+        "reflective_observation": "Looking back at your work on '{title}', what did you notice or observe?",
+        "abstract_conceptualization": "What patterns or ideas did you discover while working on '{title}'?",
+        "active_experimentation": "Based on what you learned, what would you like to experiment with next?"
+    },
+    "gibbs": {
+        "description": "Can you describe what happened while you were working on '{title}'?",
+        "feelings": "How did you feel while working on '{title}'? Were there moments of frustration or excitement?",
+        "evaluation": "What went well during your work on '{title}'? What didn't go as planned?",
+        "analysis": "Why do you think things happened the way they did?",
+        "conclusion": "What have you learned from this experience?",
+        "action_plan": "If you were to do this again, what would you do differently?"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "activity_id": "sample-activity-001",
+    "bundle_id": "org.laptop.TurtleArtActivity",
+    "title": "My Turtle Drawing",
+    "description": "I drew a spiral pattern using the repeat block.",
+    "mime_type": "application/x-turtle-art",
+    "tags": [
+        "art",
+        "coding",
+        "patterns"
+    ],
+    "duration_seconds": 900,
+    "learner": {
+        "age": 10,
+        "grade_level": "5th",
+        "language": "en"
+    },
+    "history": [
+        {
+            "title": "First Turtle Drawing",
+            "description": "Made a simple square.",
+            "timestamp": 1700000000,
+            "reflection": "I learned how to use the repeat block."
+        },
+        {
+            "title": "Colorful Shapes",
+            "description": "Made shapes with different colors.",
+            "timestamp": 1700100000,
+            "reflection": "I learned how to change pen color."
+        }
+    ]
+}
