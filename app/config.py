@@ -5,7 +5,7 @@ All tunables are loaded from environment variables with sensible defaults.
 Supports .env files for local development via pydantic-settings.
 """
 
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import Optional
 from functools import lru_cache
 
@@ -46,9 +46,7 @@ class Settings(BaseSettings):
     default_framework: str = "what_so_what"  # gibbs | kolb | what_so_what
     min_age_for_gibbs: int = 12
 
-    class Config:
-        env_file = ".env"
-        env_prefix = "REFLECT_"
+    model_config = SettingsConfigDict(env_file=".env", env_prefix="REFLECT_")
 
 
 @lru_cache()
