@@ -1,0 +1,257 @@
+[
+  {
+    "input": {
+      "context": {
+        "activity_id": "9c9eb9068b9ed8f16567e29cf022830e07d769f3",
+        "bundle_id": "org.laptop.TurtleArtActivity",
+        "title": "Tree Drawing",
+        "description": "Learning about loops",
+        "mime_type": "application/x-turtle-art",
+        "tags": [],
+        "duration_seconds": 440
+      },
+      "learner": {
+        "age": 13,
+        "language": "en"
+      },
+      "history": []
+    },
+    "output": {
+      "prompt_text": "What surprised you while working on 'Tree Drawing'? What did you observe that was unexpected?",
+      "framework_used": "kolb",
+      "stage": "reflective_observation",
+      "stage_intent": "Focus on what the learner noticed and observed",
+      "model_version": "synthetic-v1"
+    },
+    "metadata": {
+      "activity_name": "Turtle Blocks",
+      "category": "programming",
+      "history_count": 0,
+      "age_group": "older"
+    }
+  },
+  {
+    "input": {
+      "context": {
+        "activity_id": "5dcf8653a0d509ac38b54468a976eb4104854701",
+        "bundle_id": "org.laptop.Maze",
+        "title": "Hard Maze",
+        "description": "",
+        "mime_type": "application/x-maze",
+        "tags": [],
+        "duration_seconds": 2629
+      },
+      "learner": {
+        "age": 10,
+        "language": "en"
+      },
+      "history": [
+        {
+          "title": "Maze Activity",
+          "description": "Solving mazes",
+          "timestamp": 1771205400,
+          "reflection": null
+        },
+        {
+          "title": "Hard Maze",
+          "description": "",
+          "timestamp": 1767742200,
+          "reflection": null
+        },
+        {
+          "title": "Speed Run",
+          "description": "",
+          "timestamp": 1768703400,
+          "reflection": null
+        },
+        {
+          "title": "Hard Maze",
+          "description": "Trying harder levels",
+          "timestamp": 1770665400,
+          "reflection": null
+        },
+        {
+          "title": "Maze Challenge",
+          "description": "Solving mazes",
+          "timestamp": 1771299000,
+          "reflection": "It was fun working on this"
+        }
+      ]
+    },
+    "output": {
+      "prompt_text": "I see you've used Maze 5 times before. Last time you made 'Maze Activity'. What observations stand out to you most about 'Hard Maze'?",
+      "framework_used": "kolb",
+      "stage": "reflective_observation",
+      "stage_intent": "Focus on what the learner noticed and observed",
+      "model_version": "synthetic-v1"
+    },
+    "metadata": {
+      "activity_name": "Maze",
+      "category": "game",
+      "history_count": 5,
+      "age_group": "mid"
+    }
+  },
+  {
+    "input": {
+      "context": {
+        "activity_id": "f160083ac39d68a8f597e8b891b0a6db738866fe",
+        "bundle_id": "org.laptop.Calculate",
+        "title": "Math Practice",
+        "description": "Solving math problems",
+        "mime_type": "text/plain",
+        "tags": [],
+        "duration_seconds": 1146
+      },
+      "learner": {
+        "age": 16,
+        "language": "en"
+      },
+      "history": [
+        {
+          "title": "Geometry Calculations",
+          "description": "Practicing multiplication",
+          "timestamp": 1768008600,
+          "reflection": null
+        },
+        {
+          "title": "Calculate Activity",
+          "description": "Practicing multiplication",
+          "timestamp": 1767249000,
+          "reflection": null
+        },
+        {
+          "title": "Number Explorer",
+          "description": "Solving math problems",
+          "timestamp": 1771385400,
+          "reflection": null
+        },
+        {
+          "title": "Math Homework",
+          "description": "Practicing multiplication",
+          "timestamp": 1768174200,
+          "reflection": null
+        },
+        {
+          "title": "Division Practice",
+          "description": "Practicing multiplication",
+          "timestamp": 1770352200,
+          "reflection": null
+        }
+      ]
+    },
+    "output": {
+      "prompt_text": "This isn't your first time with Calculate — you also made 'Geometry Calculations' before. What's your plan for continuing or building on 'Math Practice'?",
+      "framework_used": "gibbs",
+      "stage": "action_plan",
+      "stage_intent": "Plan future action based on the experience",
+      "model_version": "synthetic-v1"
+    },
+    "metadata": {
+      "activity_name": "Calculate",
+      "category": "math",
+      "history_count": 5,
+      "age_group": "older"
+    }
+  },
+  {
+    "input": {
+      "context": {
+        "activity_id": "651cdf3e4d5f0cfba1d2dc41a1f896b6ac8ee718",
+        "bundle_id": "org.laptop.Paint",
+        "title": "My Family Portrait",
+        "description": "Drew my family",
+        "mime_type": "image/png",
+        "tags": [],
+        "duration_seconds": 560
+      },
+      "learner": {
+        "age": 7,
+        "language": "en"
+      },
+      "history": [
+        {
+          "title": "Paint Activity",
+          "description": "Using different colors",
+          "timestamp": 1769635800,
+          "reflection": null
+        },
+        {
+          "title": "Abstract Art",
+          "description": "A picture of my school",
+          "timestamp": 1768717800,
+          "reflection": null
+        },
+        {
+          "title": "Paint Activity",
+          "description": "Art project",
+          "timestamp": 1766874600,
+          "reflection": null
+        }
+      ]
+    },
+    "output": {
+      "prompt_text": "You've done 3 similar Paint projects before, including 'Paint Activity'. So what makes 'My Family Portrait' special to you? What did you figure out while creating it?",
+      "framework_used": "what_so_what",
+      "stage": "so_what",
+      "stage_intent": "Why it matters, what was learned",
+      "model_version": "synthetic-v1"
+    },
+    "metadata": {
+      "activity_name": "Paint",
+      "category": "art",
+      "history_count": 3,
+      "age_group": "young"
+    }
+  },
+  {
+    "input": {
+      "context": {
+        "activity_id": "23dff5ff96cdff3114d8d2005f514f835a52a52c",
+        "bundle_id": "org.laptop.Calculate",
+        "title": "Geometry Calculations",
+        "description": "Solving math problems",
+        "mime_type": "text/plain",
+        "tags": [],
+        "duration_seconds": 1417
+      },
+      "learner": {
+        "age": 6,
+        "language": "en"
+      },
+      "history": [
+        {
+          "title": "Geometry Calculations",
+          "description": "",
+          "timestamp": 1768440600,
+          "reflection": null
+        },
+        {
+          "title": "Math Practice",
+          "description": "Solving math problems",
+          "timestamp": 1766860200,
+          "reflection": null
+        },
+        {
+          "title": "Calculate Activity",
+          "description": "Practicing multiplication",
+          "timestamp": 1766871000,
+          "reflection": null
+        }
+      ]
+    },
+    "output": {
+      "prompt_text": "You've done 3 similar Calculate projects before, including 'Geometry Calculations'. Now what? What will you do next after 'Geometry Calculations'?",
+      "framework_used": "what_so_what",
+      "stage": "now_what",
+      "stage_intent": "What will you do next?",
+      "model_version": "synthetic-v1"
+    },
+    "metadata": {
+      "activity_name": "Calculate",
+      "category": "math",
+      "history_count": 3,
+      "age_group": "young"
+    }
+  }
+]
