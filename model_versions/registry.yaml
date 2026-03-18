@@ -1,0 +1,32 @@
+# Model Version Registry
+# Tracks all deployed model versions for audit, rollback, and A/B testing.
+#
+# Fields:
+#   version_id:      Unique identifier for this version
+#   model_name:      Human-readable model name
+#   provider:        Which LLM provider runs this model (local | ollama | openai | huggingface | rule_based)
+#   checkpoint_path: Filesystem path to model weights (null for cloud providers)
+#   description:     What this version represents
+#   is_active:       Whether this is the currently deployed version (only one should be true)
+
+models:
+  - version_id: "mock-v1"
+    model_name: "rule-based-fallback"
+    provider: "rule_based"
+    checkpoint_path: null
+    description: "Rule-based mock prompts. No LLM required. Used during development and as last-resort fallback."
+    is_active: true
+
+  - version_id: "reflection-v1-draft"
+    model_name: "reflection-llama3-8b-lora"
+    provider: "local"
+    checkpoint_path: "./models/reflection-v1/"
+    description: "First fine-tuned checkpoint. LoRA adapter on Llama3-8B trained on reflective practice data."
+    is_active: false
+
+  # - version_id: "reflection-v2"
+  #   model_name: "reflection-mistral-7b-qlora"
+  #   provider: "ollama"
+  #   checkpoint_path: null
+  #   description: "QLoRA fine-tuned Mistral-7B served via Ollama."
+  #   is_active: false
